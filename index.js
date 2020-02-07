@@ -1,5 +1,7 @@
-const user = "Sebastian";
 
+
+
+const user = prompt("Hva heter du?");
 // HTML-elementer
 const messageForm = document.querySelector("#messageForm");
 const messageText = document.querySelector("#messageText");
