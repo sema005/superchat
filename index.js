@@ -1,6 +1,6 @@
 
-//const user = prompt("Hva heter du?");
-const user = "Sebastian"
+const user = prompt("Hva heter du?");
+//const user = "Sebastian"
 // HTML-elementer
 const messageForm = document.querySelector("#messageForm");
 const messageText = document.querySelector("#messageText");
@@ -15,10 +15,10 @@ const main = document.querySelector("main");
 const db = firebase.firestore();
 const chatten = db.collection("chatten");
 
-const prikker = db.collection("prikker");
+//const prikker = db.collection("prikker");
 
 
-
+/*
 document.onclick = (evt) => {
     prikker.add({
         x: evt.clientX,
@@ -41,6 +41,7 @@ prikker.onSnapshot(snap => {
         }
     }
 })
+*/
 
 
 
